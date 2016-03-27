@@ -34,9 +34,9 @@ print(now())
 print(now.__name__)
 
 
+'''
 import functools
 
-'''
 def logger(text):
 	def decorator(func):
 		@functools.wrapper(func)
@@ -51,6 +51,16 @@ def today():
 	print('2016-3-25')
 print(today())
 '''
+def log(func):
+	def wrapper(*args, **kw):
+		print('\ncall %s():' % func.__name__)
+		func()
+		return func(*args, **kw)
+	return wrapper	
+@log
+def now():
+	print("2016-03-27")
+	return 'wangjiacn'
 
 def log()
 
