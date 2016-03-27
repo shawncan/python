@@ -62,5 +62,4 @@ def now():
 	print("2016-03-27")
 	return 'wangjiacn'
 
-def log()
-
+print(now())
