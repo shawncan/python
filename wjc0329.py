@@ -12,4 +12,3 @@ def int3(x, base=2):
 	return int(x, base)
 
 print(int3('100000'))
-#print(int2('100000', bese=10))
