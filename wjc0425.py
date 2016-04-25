@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
+'''
 import os
 
 print('Process (%s) start...' % os.getpid())
@@ -10,3 +10,24 @@ if pid == 0:
     print('I am child paocess (%s) and my parent is %s.' % (os.getpid(), os.getppid()))
 else:
     print('I (%s) just created a child process (%s).' % (os.getpid(), pid))
+'''
+
+from multiprocessing import Pool
+import os, time, random
+
+def long_time_task(name):
+    print('Run task %s (%s)...' % (name, os.getpid())) #先打印当前进程的名称，然后在打印前进程的ID
+    start = time.time()  #先记一个当前时间
+    time.sleep(random.random() * 3)  #推迟进程的执行时间，先随时生成一个0-1的实数再乘以3，然后就是推迟运行的时间
+    end = time.time()  #在记一个当前时间
+    print('Task %s runs %0.2f seconds.' % (name, (end - start)))  #打印当前的进程的名称，然后再打印计算推迟的时间（后时间戳-前时间戳）0.2f保留小数点后2位数
+
+if __name__== '__main__':
+    print('Parent process %s.' % os.getpid())
+    p = Pool(4)
+    for i in range(4):
+        p.apply_async(long_time_task, args=(i,))
+    print('Waiting for all subprocesses done...')
+    p.close()
+    p.join()
+    print('All subprocesses done.')
