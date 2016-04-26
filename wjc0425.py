@@ -23,11 +23,12 @@ def long_time_task(name):
     print('Task %s runs %0.2f seconds.' % (name, (end - start)))  #打印当前的进程的名称，然后再打印计算推迟的时间（后时间戳-前时间戳）0.2f保留小数点后2位数
 
 if __name__== '__main__':
-    print('Parent process %s.' % os.getpid())
-    p = Pool(4)
-    for i in range(4):
-        p.apply_async(long_time_task, args=(i,))
+    print('Parent process %s.' % os.getpid()) #先打印当前的进程的ID
+    p = Pool(4)#有可以同时执行4个进程
+    #p.apply_async(long_time_task, args=(3))
+    for i in range(6):
+       p.apply_async(long_time_task, args=(i,))#for循环，用apply_async(方法名, args)args作为方法的参数返回
     print('Waiting for all subprocesses done...')
-    p.close()
-    p.join()
+    p.close()#进程池不再创建新的进程
+    p.join()#等待进程池的全部进程结束再打印All subprocesses done
     print('All subprocesses done.')
