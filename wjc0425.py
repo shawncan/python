@@ -22,7 +22,7 @@ def long_time_task(name):
     end = time.time()  #在记一个当前时间
     print('Task %s runs %0.2f seconds.' % (name, (end - start)))  #打印当前的进程的名称，然后再打印计算推迟的时间（后时间戳-前时间戳）0.2f保留小数点后2位数
 
-if __name__== '__main__':
+if __name__== '__main__':#作为脚本运行，不作为模块调用，一般自测程序都放在这个模块中测试
     print('Parent process %s.' % os.getpid()) #先打印当前的进程的ID
     p = Pool(4)#有可以同时执行4个进程
     #p.apply_async(long_time_task, args=(3))
