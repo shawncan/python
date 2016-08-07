@@ -1,0 +1,577 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"print",
+				"print〔function〕"
+			],
+			[
+				"pr",
+				"produce"
+			],
+			[
+				"r",
+				"route"
+			],
+			[
+				"f",
+				"form"
+			],
+			[
+				"s",
+				"socket"
+			],
+			[
+				"a",
+				"alertButton"
+			],
+			[
+				"rq",
+				"request"
+			],
+			[
+				"l",
+				"login_data"
+			],
+			[
+				"pa",
+				"Password"
+			],
+			[
+				"rnd",
+				"rndChar"
+			],
+			[
+				"Im",
+				"Image"
+			],
+			[
+				"t",
+				"thumbnail.jpg	w:359 h:639"
+			],
+			[
+				"I",
+				"ImageFilter"
+			],
+			[
+				"rn",
+				"rndColor"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"Ima",
+				"ImageFont"
+			],
+			[
+				"im",
+				"Image"
+			],
+			[
+				"ra",
+				"randint"
+			],
+			[
+				"ran",
+				"randint"
+			],
+			[
+				"m",
+				"MyHTMLParser"
+			],
+			[
+				"__",
+				"__init__"
+			],
+			[
+				"p",
+				"process_student"
+			],
+			[
+				"c",
+				"change_it"
+			],
+			[
+				"thread",
+				"threading"
+			],
+			[
+				"P",
+				"Pool"
+			],
+			[
+				"def",
+				"default"
+			],
+			[
+				"d",
+				"dumps"
+			],
+			[
+				"w",
+				"write"
+			],
+			[
+				"fo",
+				"foo"
+			],
+			[
+				"ba",
+				"bat"
+			],
+			[
+				"b",
+				"bat"
+			],
+			[
+				"h",
+				"hello"
+			],
+			[
+				"i",
+				"items"
+			],
+			[
+				"e",
+				"enum"
+			],
+			[
+				"W",
+				"Weekday"
+			],
+			[
+				"sl",
+				"self"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"V",
+				"ValueError"
+			],
+			[
+				"_",
+				"_height"
+			],
+			[
+				"se",
+				"self"
+			],
+			[
+				"S",
+				"Screen"
+			],
+			[
+				"set",
+				"set_age"
+			],
+			[
+				"M",
+				"MethodType"
+			],
+			[
+				"ca",
+				"cat"
+			],
+			[
+				"ru",
+				"running"
+			],
+			[
+				"T",
+				"Tiger"
+			],
+			[
+				"run",
+				"running"
+			],
+			[
+				"ge",
+				"get_score"
+			],
+			[
+				"fu",
+				"func"
+			],
+			[
+				"de",
+				"decorator"
+			],
+			[
+				"na",
+				"names"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "X",
+		"selected_items":
+		[
+			[
+				"X",
+				"Set Syntax: XML"
+			],
+			[
+				"ip",
+				"Package Control: Install Package"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"PackageResourceViewer",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"pcip",
+				"Package Control: Install Package"
+			],
+			[
+				"pic",
+				"Package Control: Install Package"
+			],
+			[
+				"matr",
+				"BracketHighlighter: Match Brackets (ignore threshold)"
+			],
+			[
+				"IP",
+				"Package Control: Install Package"
+			],
+			[
+				"CodeIntel",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"sidebar",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"view:Toggle ",
+				"View: Toggle Tabs"
+			],
+			[
+				"py",
+				"Set Syntax: Python"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
+				"",
+				"Project: Add Folder"
+			],
+			[
+				"packg",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			]
+		],
+		"width": 529.0
+	},
+	"console":
+	{
+		"height": 425.0,
+		"history":
+		[
+			"git subme",
+			"git",
+			"subl",
+			"sudo ln -s \"/Applications/Sublime\\ Text.app/Contents/SharedSupport/bin/subl\" /usr/bin/subl ",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"git",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/wangjiacan/Desktop/study/python"
+	],
+	"file_history":
+	[
+		"/Users/wangjiacan/Desktop/工作资料.xml",
+		"/Users/wangjiacan/Desktop/会议记录.xml",
+		"/Users/wangjiacan/Desktop/study/python/wjc0321.py",
+		"/Users/wangjiacan/Desktop/车辆信息.xml",
+		"/Users/wangjiacan/Desktop/study/python/wjc0424.py",
+		"/Users/wangjiacan/Desktop/study/python/home.html",
+		"/Users/wangjiacan/Desktop/study/python/python0308.py",
+		"/Users/wangjiacan/Desktop/study/python/wjc0312.py",
+		"/Users/wangjiacan/Desktop/study/python/untitled.py",
+		"/Users/wangjiacan/Downloads/material-theme-develop/Material-Theme-Darker.sublime-theme",
+		"/Users/wangjiacan/Library/Application Support/Sublime Text 3/Packages/Materialize/LICENSE",
+		"/Users/wangjiacan/Library/Application Support/Sublime Text 3/Packages/Materialize/package-metadata.json",
+		"/Users/wangjiacan/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/wangjiacan/Library/Application Support/Sublime Text 3/Packages/Materialize/README.md",
+		"/Users/wangjiacan/Library/Application Support/Sublime Text 3/Packages/Materialize/Screenshots.md",
+		"/Users/wangjiacan/Desktop/study/python.sublime-project",
+		"/Users/wangjiacan/Desktop/study/python/learning.py",
+		"/Users/wangjiacan/Desktop/study/python/wjc0603.py",
+		"/Users/wangjiacan/Desktop/study/python/wjc0606.py",
+		"/Users/wangjiacan/Desktop/study/python/wjc0607.py",
+		"/Users/wangjiacan/Library/Containers/com.tencent.Foxmail/Data/Library/Foxmail/Profiles/wangjiacan@xiaomadada.com/Mail/21/11/5830755580646862507.attachment/信用卡申请文件.XML",
+		"/Users/wangjiacan/Desktop/小马达达/项目/其他任务/进行中/中信网申字段整理/信用卡申请文件.XML",
+		"/Users/wangjiacan/Desktop/study/python/wjc0523.py",
+		"/Users/wangjiacan/Desktop/study/python/templates/signin-ok.html",
+		"/Users/wangjiacan/Desktop/study/python/templates/home.html",
+		"/Users/wangjiacan/Desktop/study/python/templates/form.html",
+		"/Users/wangjiacan/Desktop/study/python/wjc0529.py",
+		"/Users/wangjiacan/Desktop/study/python/wjc0530.py",
+		"/Users/wangjiacan/Downloads/XMDD_APPLY_20160523.XML",
+		"/Users/wangjiacan/Desktop/study/python/wjc0529_1.py",
+		"/Users/wangjiacan/Desktop/study/python/wjc0324.py",
+		"/Users/wangjiacan/Desktop/study/python/wjc0519.py",
+		"/Users/wangjiacan/Desktop/study/wangjiacan/README.md",
+		"/Users/wangjiacan/Desktop/study/python/wjc0517.py",
+		"/Users/wangjiacan/Downloads/gitsome-master/README.md",
+		"/Users/wangjiacan/Desktop/study/python/wjc0518.py",
+		"/Users/wangjiacan/Library/Application Support/Sublime Text 3/Packages/SublimeREPL/config/Python/Default.sublime-commands",
+		"/Users/wangjiacan/Library/Application Support/Sublime Text 3/Packages/SublimeREPL/config/Python/Main.sublime-menu",
+		"/Users/wangjiacan/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/wangjiacan/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/wangjiacan/Desktop/study/python/wjc0512_1.py",
+		"/Users/wangjiacan/Desktop/study/python/wjc0409.py",
+		"/Users/wangjiacan/Desktop/study/python/wjc0511.py",
+		"/Users/wangjiacan/Desktop/study/python/wjc0512.py",
+		"/Users/wangjiacan/Library/Application Support/Sublime Text 3/Packages/SublimeREPL/config/Python/ipy_repl.py",
+		"/Users/wangjiacan/Desktop/2016-05-17.markdown",
+		"/Users/wangjiacan/Desktop/study/python/blur.jpg",
+		"/Users/wangjiacan/Desktop/study/python/code.jpg",
+		"/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/PIL/Image.py",
+		"/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/PIL/ImageFont.py",
+		"/Users/wangjiacan/Desktop/study/python/wjc0508.py",
+		"/Users/wangjiacan/Desktop/study/python/wjc0507_1.py",
+		"/Users/wangjiacan/Desktop/study/python/wjc0505.py",
+		"/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/threading.py",
+		"/Users/wangjiacan/Desktop/study/python/wjc0502.py",
+		"/Users/wangjiacan/Desktop/study/python/wjc0429.py",
+		"/Users/wangjiacan/Desktop/study/python/wjc0425.py",
+		"/Users/wangjiacan/Desktop/小马达达/小马达达/XMDD-客户端需求/15年/2.5版本/Q-网页洗车功能/原型图/网页版洗车-V1.1/js/app.min.js",
+		"/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/multiprocessing/process.py",
+		"/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/json/encoder.py",
+		"/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/json/__init__.py",
+		"/Users/wangjiacan/Desktop/python/python/wjc0420.py",
+		"/Users/wangjiacan/Desktop/python/python/wjc0420_1.py",
+		"/Users/wangjiacan/Desktop/python/python/wjc0417_1.py",
+		"/Users/wangjiacan/Desktop/python/python/wjc0417.py",
+		"/Users/wangjiacan/Desktop/python/python/wjc0415.py",
+		"/Users/wangjiacan/Desktop/python/python/wjc0412.py",
+		"/Users/wangjiacan/Desktop/shawn/python/wjc0409.py",
+		"/Users/wangjiacan/Desktop/shawn/python/wjc0405.py",
+		"/Users/wangjiacan/Desktop/shawn/python/wjc0404_1.py",
+		"/Users/wangjiacan/Desktop/shawn/python/wjc0404.py",
+		"/Users/wangjiacan/Desktop/shawn/python/wjc0403.py",
+		"/Users/wangjiacan/Desktop/shawn/python/wjc0403_1.py",
+		"/Users/wangjiacan/Desktop/shawn/python/wjc0324.py",
+		"/Users/wangjiacan/Desktop/shawn/python/wjc0321.py",
+		"/Users/wangjiacan/Desktop/shawn/python/wjc0330.py",
+		"/Users/wangjiacan/Desktop/shawn/python.sublime-project",
+		"/Users/wangjiacan/Desktop/shawn/python/wjc0330_1.py",
+		"/Users/wangjiacan/Desktop/shawn/python/wjc0322.py",
+		"/Users/wangjiacan/Desktop/shawn/python/python0308.py",
+		"/Users/wangjiacan/Desktop/shawn/python/wjc0318.py",
+		"/Users/wangjiacan/Desktop/shawn/python/wjc0331.py",
+		"/Users/wangjiacan/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/wangjiacan/Desktop/shawn/python/wjc0315.py",
+		"/Users/wangjiacan/Desktop/shawn/python/wjc0329.py",
+		"/Users/wangjiacan/Desktop/shawn/python/learning.py",
+		"/Users/wangjiacan/Desktop/shawn/python/do_wjc0309.py",
+		"/Users/wangjiacan/Desktop/shawn/python/wjc0312.py",
+		"/Users/wangjiacan/Desktop/shawn/wab_app/sd/__init__.py",
+		"/Users/wangjiacan/Desktop/shawn/wab_app/css/untitled.py",
+		"/Users/wangjiacan/Desktop/shawn/wab_app/sd/_init_.py",
+		"/Users/wangjiacan/Desktop/shawn/web_app.sublime-project",
+		"/Users/wangjiacan/Desktop/shawn/python/hello.py",
+		"/Users/wangjiacan/Desktop/shawn/Web_app/css/s.py",
+		"/Users/wangjiacan/Desktop/shawn/do_wjc0309.py",
+		"/Users/wangjiacan/Library/Application Support/GitHub for Mac/tutorial/README.md",
+		"/Users/wangjiacan/Desktop/shawn/s.py",
+		"/Users/wangjiacan/Desktop/shawn/txte.py",
+		"/Users/wangjiacan/Desktop/shawn/untitled.py",
+		"/Users/wangjiacan/Desktop/shawn/txte",
+		"/Users/wangjiacan/Desktop/小马达达/untitled.py",
+		"/Users/wangjiacan/Library/Application Support/Sublime Text 3/Packages/User/python3.sublime-build",
+		"/Users/wangjiacan/Desktop/\\u5c0f\\u9a6c\\u8fbe\\u8fbe/untitled.py"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"sidebar",
+			"))",
+			"random.random()",
+			"open_files_in_new_window",
+			"())",
+			"open"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 311.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/python3.sublime-build",
+	"project": "untitled.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"wjc0312.py"
+			],
+			[
+				"wjc",
+				"wjc0329.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ip",
+				"~/Desktop/study/python.sublime-project"
+			],
+			[
+				"",
+				"~/Desktop/study/python.sublime-project"
+			],
+			[
+				"pyrh",
+				"~/Desktop/study/python.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 225.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
