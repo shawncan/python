@@ -1,11 +1,11 @@
 #!/usr/local/bin/Python3
 # -*- coding: utf-8 -*-
 
-import os, wjc_licenseplate, wjc_time
+import os, vere_licenseplate, vere_time
 
 def generate():
-    wjc = wjc_licenseplate.licenseplate
-    ti = wjc_time.time
+    wjc = vere_licenseplate
+    ti = vere_time
     with open('test.txt', 'a') as test:
         test.write('\n' + wjc + '  ' + ti)
         test.close()
