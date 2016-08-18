@@ -1,23 +1,20 @@
 #!/usr/local/bin/Python3
 # -*- coding: utf-8 -*-
 
-import os, vere_licenseplate, vere_time
+import os, random, vere_licenseplate, vere_time
 
 def generate():
-    wjc = vere_licenseplate
-    ti = vere_time
+    os.system("python vere_licenseplate.py")
+    os.system("python vere_time.py")
+    wjc = vere_licenseplate.licenseplate
+    ti = vere_time.date_time
+    fee = random.randint(1000, 2000)
     with open('test.txt', 'a') as test:
-        test.write('\n' + wjc + '  ' + ti)
+        test.write('\n' + wjc + '  ' + ti + '  ￥' + str(fee))
         test.close()
 
-# for i in range(10):
-#     os.system("python wjc_licenseplate.py")
 
-os.system("python wjc_licenseplate.py")
-
-gener = generate()
-
-
+generate()
 
 
 

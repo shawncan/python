@@ -6,12 +6,12 @@ import random, string
 # 随机生成车牌地区编码Coding region
 def region():
     reg = ["A", "B", "C", "D", "E", "F", "G", "H", "J", "K", "L"]
-    return random.choice( reg )
+    return random.choice(reg)
 
 
 # 随机生成车牌到后2位
 def second(size=2, chars=string.ascii_uppercase + string.digits):
-    sec = ''.join( random.choice( chars ) for _ in range( size ) )
+    sec = ''.join(random.choice(chars) for _ in range(size))
     if sec[0] == sec[1]:
         # print("Generating tail number error")
         exit()
