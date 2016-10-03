@@ -12,14 +12,7 @@ def letter():
 # 随机生成车牌最后2位
 def tail_number(size=2, chars=string.ascii_uppercase + string.digits):
     tail = ''.join(random.choice(chars) for _ in range(size))
-    if tail[0] == tail[1]:
-        print("Error: repeat tail number")
-        exit()
-    elif tail == "I" or tail == "O":
-        print("Generating License Plate error")
-        exit()
-    else:
-        return tail
+    return tail
 
 
 # 随机生成车牌
@@ -38,18 +31,22 @@ def time_purchase():
     return date_time
 
 
-# 随机生成数据
-def generate():
+frequency = input("请输入输出次数:")
+
+# 生成数据并且按照输入数字循环
+for i in range(int(frequency)):
     licenseplate = license_plate()
     timepurchase = time_purchase()
     fee = random.randint(1000, 2000)
-    with open('/Users/wangjiacan/Desktop/cesi.txt', 'a') as test:
-        test.write('\n' + licenseplate + '  ' + timepurchase + '  ￥' + str(fee))
-        test.close()
-
-frequency = input("请输入输出次数:")
-
-for i in range(int(frequency)):
-    generate()
+    if licenseplate[5] == licenseplate[6]:
+        print("Error: repeat tail number")
+        continue
+    elif licenseplate[5] == "I" or licenseplate[5] == "O" or licenseplate[6] == "I" or licenseplate[6] == "O":
+        print("Error: Generating License Plate error")
+        continue
+    else:
+        with open('/Users/wangjiacan/Desktop/cesi.txt', 'a') as test:
+            test.write('\n' + licenseplate + '  ' + timepurchase + '  ￥' + str(fee))
+            test.close()
 
 print("程序运行成功,快去看看吧!!!")
