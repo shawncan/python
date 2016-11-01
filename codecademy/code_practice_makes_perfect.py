@@ -43,4 +43,3 @@ def factorial(x):
 
 print(factorial(-4))
 print(factorial(-4))
-#测试git提交测试测试测试测试
