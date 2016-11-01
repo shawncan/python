@@ -31,7 +31,8 @@ def factorial(x):
     return digit
 
 
-# def factorial1(x):
+# 另外一种实现的方法
+#  def factorial1(x):
 #     fact = 1
 #     while x > 0:
 #         fact = fact * x
@@ -39,8 +40,22 @@ def factorial(x):
 #     return fact
 
 
-# print(is_even(int(input("请输入:"))))
+def is_prime(x):
+    if x < 2:
+        return False
+    elif x == 2:
+        return True
+    for n in range(2, x):
+        if x % n == 0:
+            return False
+            break
+    else:
+        return True
 
-print(factorial(-4))
-print(factorial(-4))
-#测试上产代码到git
+
+def reverse(text):
+    a = list(text)
+    return a
+
+
+print(reverse("abcd"))
