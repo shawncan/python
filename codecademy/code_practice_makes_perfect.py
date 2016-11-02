@@ -53,6 +53,7 @@ def is_prime(x):
         return True
 
 
+# 传入参数然后倒序输出
 def reverse(text):
     text1 = list(text)
     text2 = []
@@ -74,7 +75,7 @@ def reverse(text):
 # def reverse2(text):
 #     return text[::-1]
 
-
+# 传入字符串把原因字母提出后输入
 def anti_vowel(text):
     original = ['a', 'A', 'e', 'E', 'i', 'I', 'o', 'O', 'u', 'U']
     text1 = []
@@ -94,6 +95,7 @@ score = {"a": 1, "c": 3, "b": 3, "e": 1, "d": 2, "g": 2,
          "x": 8, "z": 10}
 
 
+# 传入字符串根据字典里面的值计算
 def scrabble_score(word):
     word1 = word.lower()
     total = 0
