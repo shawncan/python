@@ -54,8 +54,52 @@ def is_prime(x):
 
 
 def reverse(text):
-    a = list(text)
-    return a
+    text1 = list(text)
+    text2 = []
+    for i in text1:
+        text2.insert(0, i)
+    text3 = ''.join(text2)
+    return text3
 
 
-print(reverse("abcd"))
+# 其他的2种方法
+# def reverse1(text):
+#     text1 = list(text)
+#     text2 = []
+#     for i in reversed(text1):
+#         text2.append(i)
+#     text3 = ''.join(text2)
+#     return text3
+#
+# def reverse2(text):
+#     return text[::-1]
+
+
+def anti_vowel(text):
+    original = ['a', 'A', 'e', 'E', 'i', 'I', 'o', 'O', 'u', 'U']
+    text1 = []
+    for i in text:
+        if i in original:
+            continue
+        else:
+            text1.append(i)
+    text2 = ''.join(text1)
+    return text2
+
+
+score = {"a": 1, "c": 3, "b": 3, "e": 1, "d": 2, "g": 2,
+         "f": 4, "i": 1, "h": 4, "k": 5, "j": 8, "m": 3,
+         "l": 1, "o": 1, "n": 1, "q": 10, "p": 3, "s": 1,
+         "r": 1, "u": 1, "t": 1, "w": 4, "v": 4, "y": 4,
+         "x": 8, "z": 10}
+
+
+def scrabble_score(word):
+    word1 = word.lower()
+    total = 0
+    for i in word1:
+        total += score[i]
+    return total
+
+
+print(scrabble_score("Helix"))
