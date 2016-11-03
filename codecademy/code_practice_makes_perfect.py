@@ -104,4 +104,55 @@ def scrabble_score(word):
     return total
 
 
-print(scrabble_score("Helix"))
+# 根据输入的字符屏蔽相应的文本
+def censor(text, word):
+    asterisk_list = []
+    digit = len(word)
+    while digit > 0:
+        asterisk_list.append('*')
+        digit -= 1
+    asterisk = ''.join(asterisk_list)
+    return text.replace(word, asterisk)
+
+
+# 在输入的列表中找字符找出一共出现了几次
+def count(sequence, item):
+    digit = 0
+    for i in sequence:
+        if i == item:
+            digit += 1
+        else:
+            continue
+    return digit
+
+
+# 输入的列表中返回只有偶数的列表
+def purify(sequence):
+    even = []
+    for i in sequence:
+        if i % 2 == 0:
+            even.append(i)
+        else:
+            continue
+    return even
+
+
+# 输入的列表中返回列表的乘积数
+def product(sequence):
+    multiply = 1
+    for i in sequence:
+        multiply *= i
+    return multiply
+
+
+# 输入的列表中删除列表中一样的值
+def remove_duplicates(sequence):
+    sequence_1 = []
+    for i in sequence:
+        if i not in sequence_1:
+            # 如果i不在sequence_1列表中则执行下面的代码
+            sequence_1.append(i)
+    return sequence_1
+
+
+print(remove_duplicates([4, 5, 5]))
