@@ -155,4 +155,16 @@ def remove_duplicates(sequence):
     return sequence_1
 
 
-print(remove_duplicates([4, 5, 5]))
+# 输入的列表中返回中位数
+def median(sequence):
+    digital = len(sequence)
+    digital_1 = 0
+    sequence.sort()
+    sequence_1 = ''.join([str(i) for i in sequence])
+    if digital % 2 == 0:
+        position = digital / 2
+        digital_1 = sequence_1[position] + sequence_1[position]
+    return digital_1
+
+
+print(median([3, 2, 1, 6]))
