@@ -154,17 +154,26 @@ def remove_duplicates(sequence):
             sequence_1.append(i)
     return sequence_1
 
+'''
+# 输入的列表中返回中位数
+我去转换了字符串然后再去计算，这样的话列表只有1个的时候就无法计算了，所以会有问题，而直接去列表取值就不会有问题了，饶了一个大湾路
+def median(sequence):
+    digital = len(sequence)
+    sequence.sort()
+    sequence_1 = ''.join([str(i) for i in sequence])
+    if digital % 2 == 0:
+        return (int(sequence_1[int(digital / 2)]) + int(sequence_1[int( (digital / 2) - 1)])) / 2
+    else:
+        return sequence_1[int((digital / 2) - 0.5)]
+'''
 
 # 输入的列表中返回中位数
 def median(sequence):
     digital = len(sequence)
-    digital_1 = 0
     sequence.sort()
-    sequence_1 = ''.join([str(i) for i in sequence])
     if digital % 2 == 0:
-        position = digital / 2
-        digital_1 = sequence_1[position] + sequence_1[position]
-    return digital_1
+        return (int(sequence[int(digital / 2)]) + int(digital[int( (digital / 2) - 1)])) / 2
+    else:
+        return sequence[int((digital / 2) - 0.5)]
 
-
-print(median([3, 2, 1, 6]))
+print(median([2]))
