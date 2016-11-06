@@ -167,6 +167,7 @@ def median(sequence):
         return sequence_1[int((digital / 2) - 0.5)]
 '''
 
+
 # 输入的列表中返回中位数
 def median(sequence):
     digital = len(sequence)
