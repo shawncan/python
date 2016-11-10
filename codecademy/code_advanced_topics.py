@@ -33,10 +33,32 @@ odds = to_21[::2]
 
 middle_third = to_21[7:14:1]
 
+'''
+20161110
+'''
+
 my_list_1 = [i for i in range(16)]
 
-print(my_list_1)
+# print(list(filter(lambda x: x % 3 == 0, my_list)))
 
-a = lambda x:  x + 1
+languages = ['HTML', 'JavaScript', 'Python', 'Ruby']
 
-print(a(4))
+# print(list(filter(lambda x: x == 'Python', languages)))
+
+squares = [i ** 2 for i in range(1, 16)]
+
+# print(list(filter(lambda x:  30 < x < 70, squares)))
+
+threes_and_fives = [i for i in range(1, 16) if i % 3 == 0 or i % 5 == 0]
+
+# print(threes_and_fives)
+
+garbled = "!XeXgXaXsXsXeXmX XtXeXrXcXeXsX XeXhXtX XmXaX XI"
+
+message = garbled[::-2]
+
+garbled_1 = "IXXX aXXmX aXXXnXoXXXXXtXhXeXXXXrX sXXXXeXcXXXrXeXt mXXeXsXXXsXaXXXXXXgXeX!XX"
+
+message_1 = list(filter(lambda x: x != 'X', garbled_1))
+
+print(message_1)
