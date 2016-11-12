@@ -48,4 +48,45 @@ text = bin(201)  # 查询数字的2进制表示
 # print(bin(shift_left << 2))
 
 
-print(bin(0b1110 & 0b101))
+# print(bin(0b1110 & 0b101))
+
+# print(bin(0b1110 | 0b101))
+
+# print(bin(0b1110 ^ 0b101))
+
+# print(bin(~0b1110))
+
+
+# 20161112 综合操作
+
+
+# def check_bit4(integer):
+#     mask = 0b1000
+#     desired = integer & mask
+#     if desired >= 8:
+#         return "on"
+#     else:
+#         return "off"
+# test = int(0b1000)
+# test = bin(13)
+# print(check_bit4(int(input("请输入："))))
+
+
+# a = 0b1101
+# mask = 0b100
+# desired = a | mask
+# print(bin(desired))
+
+# a = 0b11101110
+# mask = 0b11111111
+# desired = a ^ mask
+# print(bin(desired))
+
+
+def flip_bit(number, n):
+    mask = (0b01 << (n - 1))
+    print(bin(mask))
+    result = number ^ mask
+    return result
+
+print(bin(flip_bit(0b101, 1)))
