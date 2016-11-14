@@ -87,6 +87,6 @@ def flip_bit(number, n):
     mask = (0b01 << (n - 1))
     print(bin(mask))
     result = number ^ mask
-    return result
+    return bin(result)
 
-print(bin(flip_bit(0b101, 1)))
+print(flip_bit(0b111, 2))
