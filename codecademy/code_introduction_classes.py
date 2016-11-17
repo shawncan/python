@@ -52,7 +52,7 @@ class PartTimeEmployee(Employee):
 
 
 class Triangle(object):
-    """ 类 """
+    """ 三角形类 """
     number_of_sides = 3
 
     def __init__(self, angle1, angle2, angle3):
@@ -61,7 +61,7 @@ class Triangle(object):
         self.angle3 = angle3
 
     def check_angles(self):
-        if self.angle1 + self.angle2 + self.angle3 == 180 :
+        if self.angle1 + self.angle2 + self.angle3 == 180:
             return True
         else:
             return False
