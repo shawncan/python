@@ -2,8 +2,4 @@
 # http://curl.haxx.se/rfc/cookie_spec.html
 # This is a generated file!  Do not edit.
 
-.renren.com	TRUE	/	FALSE	1511010244	_r01_	1
-.renren.com	TRUE	/	FALSE	1637586244	anonymid	ivuxyuip-2dhxei
-.renren.com	TRUE	/	FALSE	1480165444	depovince	GW
-.renren.com	TRUE	/	FALSE		jebecookies	3f19ba0a-0d37-4591-acb9-957507dc6178|||||
-www.renren.com	FALSE	/	FALSE		JSESSIONID	abc1Fisq27tYj9zztsrIv
+activity.renren.com	FALSE	/	FALSE		JSESSIONID	3BE2456C4652A369A9333258B0F76B25
