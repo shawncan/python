@@ -1,5 +1,1 @@
-# Netscape HTTP Cookie File
-# http://curl.haxx.se/rfc/cookie_spec.html
-# This is a generated file!  Do not edit.
-
-activity.renren.com	FALSE	/	FALSE		JSESSIONID	3BE2456C4652A369A9333258B0F76B25
+anonymid=ivyzl3na4qfiam; domain=.renren.com; path=/; expires=Thu, 25-Nov-2021 09:00:27 GMT, _de=797DD4BF9FBE00BEE2A69D838E8B6F33696BF75400CE19CC; domain=.renren.com; path=/; expires=Tue, 21-Nov-2017 09:00:27 GMT, p=66724720708cf4b7c8956104a59928132; domain=renren.com; path=/, first_login_flag=1; domain=renren.com; path=/, ln_uact=784241389@qq.com; domain=renren.com; path=/; expires=Mon, 26-Dec-2016 09:00:27 GMT, ln_hurl=http://hdn.xnimg.cn/photos/hdn521/20140316/2040/h_main_KoEI_81780000021f113e.jpg; domain=renren.com; path=/; expires=Mon, 26-Dec-2016 09:00:27 GMT, t=97128438f94423004a682989fa6386632; domain=.renren.com; path=/, t=a0c1be52471e61b6cc9db19fe1763d52; domain=renren.com; path=/xtalk/, societyguester=97128438f94423004a682989fa6386632; domain=.renren.com; path=/, id=400078482; domain=.renren.com; path=/, xnsid=6022bf36; domain=.renren.com; path=/, loginfrom=syshome; domain=.renren.com; path=/
